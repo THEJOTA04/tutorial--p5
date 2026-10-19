@@ -5,7 +5,7 @@ let y = 20;
 let filtroActivo = null;
 
 function preload() {
-  imagen = loadImage("conejo.jpg");
+  imagen = loadImage("conejo.png");
 }
 }
 
