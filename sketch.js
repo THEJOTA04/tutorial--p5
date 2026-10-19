@@ -5,9 +5,8 @@ let y = 20;
 let filtroActivo = null;
 
 function preload() {
-  imagen = loadImage(
-    "https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=600"
-  );
+  imagen = loadImage("conejo.jpg");
+}
 }
 
 function setup() {
