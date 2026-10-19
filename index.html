@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tutorial 6 - Imagen en p5.js</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f1f5f9;
+      color: #1e293b;
+      text-align: center;
+    }
+    header {
+      background: #3949ab;
+      color: white;
+      padding: 20px;
+    }
+    main {
+      padding: 20px;
+    }
+    #canvas-container {
+      max-width: 100%;
+      overflow: hidden;
+    }
+    canvas {
+      display: block;
+      margin: auto;
+      max-width: 100%;
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Tutorial 6: Imagen en p5.js</h1>
+    <p>Movimiento y filtros de imagen</p>
+  </header>
+  <main>
+    <h3>Usa las flechas para mover la imagen, F para aplicar un filtro y R para restaurarla.</h3>
+    <div id="canvas-container"></div>
+  </main>
+  <script src="sketch.js"></script>
+</body>
+</html>
